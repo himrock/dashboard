@@ -1,0 +1,38 @@
+/* for header */
+
+
+  
+  .headerWrapper{
+    width: 980px;
+      margin: auto;
+      line-height: 70px;
+      height: 70px;
+      font-weight: 700;
+  }
+  
+  .header img{
+    width: 60px;
+      height: 40px;
+      vertical-align: middle;
+      border-style: none;
+  }
+  
+  .headerLeft{
+    display: inline;
+  }
+  
+  .headerRight{
+    display: inline;
+    float: right;
+  }
+
+  .headerRight img{
+    height: 20px;
+    width: 20px;
+    margin-left: 13px;
+  }
+  
+  .headerRight span{
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+  }

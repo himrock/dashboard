@@ -1,0 +1,27 @@
+/* for carrier */
+
+.carrier{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 30px 0px 30px 0px;
+  }
+  
+  .carrier-pod{
+    background: #c7c7e6;
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 65px;
+    cursor: pointer;
+  }
+  
+  .carrier-pod h1{
+    margin: 10px 0px 0px 0px;
+  }
+
+  .activeCounter{
+    background-color: #6363d1;
+    color: white;
+    cursor: not-allowed;
+  }
