@@ -8,20 +8,22 @@
   }
   
   .carrier-pod{
-    background: #c7c7e6;
+    background: #d8d8f7;
     margin: 0px 10px 0px 10px;
     padding: 10px;
     border-radius: 5px;
     width: 65px;
     cursor: pointer;
+    color: #3030dc;
   }
   
   .carrier-pod h1{
     margin: 10px 0px 0px 0px;
+    font-weight: 400;
   }
 
   .activeCounter{
-    background-color: #6363d1;
+    background-color: #3030dc;
     color: white;
     cursor: not-allowed;
   }

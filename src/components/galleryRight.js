@@ -59,7 +59,7 @@ class galleryRight extends Component {
                                     <td>{item.current_status_code}</td>
                                     <td>{this.changeDateFormat(item.createdAt)}</td>
                                     <td>{item.extra_fields && item.extra_fields.expected_delivery_date ? this.changeDateFormat(item.extra_fields.expected_delivery_date) : 'Not Available'}</td>
-                                    <td>{item.current_status}</td>
+                                    <td style={{'color': 'green'}}>{item.current_status}</td>
                                 </tr>   
                             )
                         })

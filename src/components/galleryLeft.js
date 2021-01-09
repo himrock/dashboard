@@ -24,19 +24,31 @@ class galleryLeft extends Component {
           <div className="left-gallery">
           { particularRowData ? (
             <div className="left-wrapper">
+              <div className="img-wrap">
               <img src={warehouse} alt="warehouse"></img>
+              </div>
+              
+
+              
 
               {particularRowData[0].scan.map((item, index) => {
                 return (
+                  <>
+                  <div class="vl"></div>
+                  <div class="hl"></div>
+                  <div class="vl"></div>
                   <div className="left-first" key={index}>
                     <span>{item.status_detail}</span>
                     <span>{this.changeDateFormat(item.time , 'date')}</span>
                     <span>{this.changeDateFormat(item.time, 'time')}</span>
                   </div>
+                  </>
                 )
               })
               }
-              <img src={destination} alt="destination"></img>
+              <div className="img-wrap-second">
+                <img src={destination} alt="destination"></img>
+              </div>
             </div>
 
             ) : (

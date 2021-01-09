@@ -29,17 +29,19 @@
     text-align: left;
     padding: 8px;
     font-size: 12px;
+    width: 120px;
   }
   
   .left-gallery .left-wrapper{
     margin: 20px;
     border: 1px solid #d9d5d5;
     padding: 20px;
+    position: relative;
   }
   
   .left-wrapper .left-first{
       border: 1px solid #d9d5d5;
-    margin: 20px;
+      margin: 7px 20px 11px 20px;
     display: flex;
     justify-content: space-around;
     font-size: 11px;
@@ -63,4 +65,45 @@
 
   .disableCursor{
     cursor: not-allowed;
+  }
+
+  .vl {
+    border-left: 2px solid #648cdc;
+    height: 44px;
+    position: absolute;
+  }
+
+  .hl{
+    border-top: 2px solid #648cdc;
+    height: 2px;
+    width: 21px;
+    position: relative;
+    top: 27px;
+  }
+
+  .img-wrap, .img-wrap-second{
+    display: inline-block;
+    background: #a0d7e8;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    position: relative;
+    left: -15px;
+  }
+
+  .img-wrap img{
+    position: relative;
+    left: 7px;
+    top: 2px;
+  }
+
+  .img-wrap-second img{
+    position: relative;
+    left: 11px;
+    top: 4px;
+  }
+
+  thead th{
+    color: #a09b9b;
+    font-size: 12px;
   }
